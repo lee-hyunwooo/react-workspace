@@ -10,7 +10,8 @@ import ImageChange from './js/ImageChange';
 import ObjectExample from './js/ObjectExample';
 import OldComponent from './js/OldComponent';
 import Animal from './js/Animal';
-import TimerCount from '/.js/TimerCount'
+import TimerCount from './js/TimerCount';
+import CountPre from './js/CountPre';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -22,7 +23,8 @@ root.render(
     {/*<ImageChange />*/}
     {/*<ObjectExample />*/}
     {/*<Animal />*/}
-    <TimerCount />
+    {/*<TimerCount />*/}
+    <CountPre />
   </React.StrictMode>
 );
 
